@@ -448,6 +448,8 @@ Examples:
      <figcaption> Figure 9 - Result of finding clients by name </figcaption>
 </figure>
 
+<div style="page-break-before: always"></div>
+
 ### 3.2.5 Deleting a Client : `cdel`
 
 If you are no longer taking up a client, you can delete the client which can be found in the Client List. This helps in reducing obsolete information.
@@ -500,8 +502,6 @@ Points to take note when viewing clients from the Client List:
 Examples:
 * `cview 2` opens the second client in FitEgo
 * `cfind Bernice` followed by `cview 1` opens the first client (Bernice) in the resulting Client List
-
-<br>
 
 The result of these commands is shown in the figure below
 
@@ -605,6 +605,7 @@ Examples:
      </p>
      <figcaption> Figure 13 - Result of executing <code>sedit 1 g/Machoman at/29/09/2020 1600 t/120</code></figcaption>
 </figure>
+
 
 ### 3.3.3 Deleting a Session : `sdel`
 
