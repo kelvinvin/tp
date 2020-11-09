@@ -7,7 +7,7 @@ Welcome to FitEgo! This document will serve as a user guide to the all-in-one sc
 
 Made with **fitness instructors** in mind, **FitEgo** is a **desktop program** that helps them **manage their clients and schedules**, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI). If you can type fast, **FitEgo** can get your client management tasks done faster than traditional GUI apps.
 
-<h2>Table of Contents</h2>  
+<h2>Table of Contents</h2>
 * Table of Contents
 {:toc}
 
@@ -392,6 +392,9 @@ store his photo as `data/images/profile-alex-yeoh.jpg`
 
 Examples:
 * `cadd n/Jane Doe p/91234567 e/jane@gmail.com a/311, Clementi Ave 2, #02-25` adds a client with the specified name, phone number, email and address.
+
+<div style="page-break-before: always"></div>
+
 * `cadd n/John Doe p/91231367 e/jojo@gmail.com a/311, Clementi Ave 2, #02-25 t/injured-thigh` adds a client with the specified name, phone number, email, address and tag.
 
 ### 3.2.3 Editing a Client : `cedit`
