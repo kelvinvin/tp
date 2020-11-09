@@ -319,6 +319,7 @@ Format: `exit`
 Your data in FitEgo are saved in the hard disk automatically after any command that changes the data. There is no need to save manually.
 
 ---
+<div style="page-break-after: always"></div>
 
 ## 3.2 Client-related Keywords
 
@@ -505,6 +506,7 @@ The result of these commands is shown in the figure below
      <figcaption> Figure 10 - Client View with Schedules </figcaption>
 </figure>
 ---
+<div style="page-break-after: always"></div>
 
 ## 3.3 Session-related Keywords 
 
@@ -683,6 +685,7 @@ the Session List will still be showing Friday's sessions at that point of time. 
 </div>
 
 ---
+<div style="page-break-after: always"></div>
 
 ## 3.4 Schedule-related Keywords 
 
@@ -795,6 +798,7 @@ Examples:
 * `schdel c/1 s/1` deletes the schedule associated with the first client in the Client List and first session in the Session List
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always"></div>
 
 # 4 FAQ
 
