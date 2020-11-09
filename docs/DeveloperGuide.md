@@ -49,7 +49,7 @@ Additional information.
 
 ### 2.1 Architecture
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ArchitectureDiagram.png" width="450" />
     </p>
@@ -84,7 +84,7 @@ Each of the four components,
 
 For example, the `Logic` component (see the class diagram given below) defines its API in the `Logic.java` interface and exposes its functionality using the `LogicManager.java` class which implements the `Logic` interface.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/LogicClassDiagram.png"/>
     </p>
@@ -95,7 +95,7 @@ For example, the `Logic` component (see the class diagram given below) defines i
 
 The *Sequence Diagram* below shows how the components interact with each other for the scenario where the user issues the command `cdel 1`.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ArchitectureSequenceDiagram.png"/>
     </p>
@@ -106,7 +106,7 @@ The sections below give more details of each component.
 
 ### 2.2 UI component
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/UiClassDiagramP3.png" style="width: 50%"/>
     </p>
@@ -115,7 +115,7 @@ The sections below give more details of each component.
 
 The UiComponents package in the above diagram has the following classes. 
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/UiClassDiagramP2.png"/>
     </p>
@@ -138,7 +138,7 @@ The `UI` component interacts with these external API:
 
 ### 2.3 Logic component
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/LogicClassDiagram.png"/>
     </p>
@@ -156,7 +156,7 @@ The `UI` component interacts with these external API:
 
 Given below is the Sequence Diagram for interactions within the `Logic` component for the `execute("cdel 1")` API call.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/DeleteClientSequenceDiagram.png"/>
     </p>
@@ -168,7 +168,7 @@ Given below is the Sequence Diagram for interactions within the `Logic` componen
 
 ### 2.4 Model component
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ModelClassDiagram.png"/>
     </p>
@@ -177,7 +177,7 @@ Given below is the Sequence Diagram for interactions within the `Logic` componen
 
 The figure above gives the overall architecture of the Model component.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ModelClassDiagram2.png"/>
     </p>
@@ -199,7 +199,7 @@ The `Model`,
 
 ### 2.5 Storage component
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/StorageClassDiagram.png"/>
     </p>
@@ -267,7 +267,7 @@ The `sedit` command calls `Model#setSession()`, causing changes to be made in th
 
 The following sequence diagram shows how the Edit Session operation works:
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/EditSessionSequenceDiagram.png"/>
     </p>
@@ -280,7 +280,7 @@ The following sequence diagram shows how the Edit Session operation works:
 
 The following activity diagram summarizes what happens when a user executes a new `EditSession` command, with the assumption that the user inputs a valid command:
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/EditSessionActivityDiagram.png"/>
     </p>
@@ -304,7 +304,7 @@ However, the user can pass in an optional force (`f/`) parameter to delete all s
 
 The following activity diagram summarizes what happens when a user executes a new `DeleteSession` command, with the assumption that the user inputs a valid command.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/DeleteSessionActivityDiagram.png" style="width: 50%; height: auto;"/>
     </p>
@@ -313,7 +313,7 @@ The following activity diagram summarizes what happens when a user executes a ne
 
 The following diagram shows a possible application state in FitEgo, where 2 clients, Andy and John, are scheduled to a same session.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/DeleteSessionObjectDiagram.png" style="width: 50%; height: auto;"/>
     </p>
@@ -331,7 +331,7 @@ For simplicity, we will refer to this command input as `commandText`.
     <figcaption>Figure 14 - Delete Session Sequence Diagram</figcaption>
 </figure>
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/DeleteSessionParseArgsRef.png"/>
     </p>
@@ -392,7 +392,7 @@ When using this command, the `CLIENT_INDEX` should refer to the index shown in t
 
 The following activity diagram summarizes the decision making process when a user executes a new `AddSchedule` command.
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
      <p>
          <img src="images/AddScheduleActivityDiagram.png" style="width: 70%; height: auto;"/>
      </p>
@@ -423,7 +423,7 @@ Instead of using `DeleteSessionCommandParser`, it uses `AddScheduleCommandParser
 
 `AddScheduleCommand#execute(model)` will be called instead of `DeleteSessionCommand#execute(model)`. For this particular case, the method call `AddScheduleCommand#execute(model)` can be traced using the following sequence diagram snippet.
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
      <p>
          <img src="images/AddScheduleExecuteRef.png" style="width: 95%; height: auto;"/>
      </p>
@@ -435,7 +435,7 @@ Since for this case no identical Schedule is not found, a new Schedule object is
 
 Thus, `schadd c/2 s/1` will add a Schedule associated with Andy (the second Client in the Client List) and endurance training from 12/02/2020 1400 - 1600 (the first Session in the Session List). The result can be illustrated by the following object diagram, which shows a new Schedule is created.
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
      <p>
          <img src="images/OverlappingScheduleObjectDiagram1.png" style="width: 85%; height: auto;"/>
      </p>
@@ -463,7 +463,7 @@ The `schedit` command calls `Model#setSchedule()`, causing changes to be made in
 
 The following activity diagram summarizes what happens when a user executes a new `EditSchedule` command, with the assumption that the user inputs a valid command:
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/EditScheduleActivityDiagram.png" style="width: 25%; height: auto;"/>
     </p>
@@ -497,7 +497,7 @@ at the start of every session. Thus, to get the weight change over time, a list 
 
 In the following sequence diagram, we trace the execution starting from when the user calls `cview 1` until when the UI is updated with Client View.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ClientViewWeightSequenceDiagram.png" alt="ClientViewWeightSequenceDiagram" style="align-content: center" />
     </p>
@@ -549,7 +549,7 @@ must follow the format `(+/-)#(D/W/M/Y)`.
 
 The following activity diagram summarizes what happens when a user executes a new View Session command.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ViewSessionActivityDiagram.png" style="height: auto;"/>
     </p>
@@ -559,14 +559,14 @@ The following activity diagram summarizes what happens when a user executes a ne
 In the following sequence diagram, we trace the execution when the user decides to enter the View Session command 
 `sview p/week` into FitEgo.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ViewSessionSequenceDiagram.png" alt="ViewSessionSequenceDiagram" style="align-content: center" />
     </p>
     <figcaption>Figure 23 - View Session Sequence Diagram</figcaption>
 </figure>
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ViewSessionParserRef.png" alt="ViewSessionParserRef" style="align-content: center" />
     </p>
@@ -587,7 +587,7 @@ should end at the destroy marker (X) but due to a limitation of PlantUML, the li
 
 1. Command result is passed to `MainWindow` to indicate a successful execution. `MainWindow` will then update the `RightSideBar`.
 
-    <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+    <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ViewSessionUpdateRightSideBarRef.png" alt="ViewSessionUpdateRightSideBarRefSequenceDiagram" style="align-content: center" />
     </p>
