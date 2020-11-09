@@ -134,19 +134,16 @@ FitEgo supports all those features and more.
 
 Ready to begin? Let's start exploring!
 
-<div style="page-break-before: always"></div>
-
 ### 1.3 General Note
 
 The program will automatically save after every command execution to guarantee that your data will never be lost.
-
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-before: always"></div>
 
 # 2 UI-orientation
 
-You can refer to the table and the figure below to familiarize yourself with the user interface of FitEgo.
+You can refer to the figure below to familiarize yourself with the user interface of FitEgo.
 
 [comment]: <> (Why cant you figure out yourself?)
 
@@ -157,8 +154,6 @@ You can refer to the table and the figure below to familiarize yourself with the
      <figcaption> Figure 2 - Callouts of the various UI components</figcaption>
  </figure>
  
-From the figure above, the GUI is made up of several components. 
-
 <center> Table 2 - Functions of UI Components </center>
 
 | Component | Description |
@@ -299,6 +294,8 @@ The current settings available are:
  *more to come!
 </div>
 
+<div style="page-break-before: always"></div>
+
 ### 3.1.4 Clearing all data in the program : `clear` 
 
 You can delete all data (client, session, schedule) using the `clear` keyword. All of your existing data will be removed. 
@@ -356,6 +353,8 @@ The Next Session field below each Client shows you the earliest upcoming session
 
 </div>
 
+<div style="page-break-before: always"></div>
+
 ### 3.2.1 Listing all Clients : `clist`
 
 You can view the list of all clients in FitEgo. The list of clients will be shown at the Client List. 
@@ -391,8 +390,6 @@ store his photo as `data/images/profile-alex-yeoh.jpg`
 
 Examples:
 * `cadd n/Jane Doe p/91234567 e/jane@gmail.com a/311, Clementi Ave 2, #02-25` adds a client with the specified name, phone number, email and address.
-
-<div style="page-break-before: always"></div>
 
 * `cadd n/John Doe p/91231367 e/jojo@gmail.com a/311, Clementi Ave 2, #02-25 t/injured-thigh` adds a client with the specified name, phone number, email, address and tag.
 
@@ -549,6 +546,8 @@ of session view using [<code>sview</code>](#334-viewing-sessions-within-period--
  
 </div>
 
+<div style="page-break-before: always"></div>
+
 ### 3.3.1 Adding a Session : `sadd`
 
 You can create a session with its relevant details. If the new session is within the [viewing period](#334-viewing-sessions-within-period--sview) of the Session List, the addition will be reflected in the Session List.
@@ -583,6 +582,7 @@ Examples:
 * `sadd g/New Gym ex/Endurance at/06/11/2020 0900 t/65` adds a session at gym `New Gym` with exercise type `Endurance` at `06/11/2020 0900hrs` that lasts for `65` minutes. 
 The figure above shows the result of a successful execution of this command. You might need to set the viewing period to all (`sview p/all`) to see the new session show up in the right panel.
 
+<div style="page-break-before: always"></div>
 
 ### 3.3.2 Editing a Session : `sedit`
 
