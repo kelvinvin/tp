@@ -46,9 +46,9 @@ If this is your first time, here are some quick tips to get started.
 
    * **[`exit`](#315-exiting-the-program--exit)** : Exits the app.
 
-1. Read [Overview](#12-overview) for a quick understanding of commands in FitEgo.
+1. Read the [Overview](#12-overview) section for a quick understanding of commands in FitEgo.
 
-1. Refer to the [Keyword](#31-main-keywords) below for more details of each command.
+1. Refer to the [Keyword](#31-main-keywords) section below for more details of each command.
 
 <div style="page-break-after: always"></div>
 
@@ -188,7 +188,6 @@ For advanced users, you can use the "TAB" key and FitEgo will auto-complete the 
 </div>
 
 --------------------------------------------------------------------------------------------------------------------
-<div style="page-break-after: always"></div>
 
 # 3 Keyword
 
@@ -248,6 +247,8 @@ If you do not have any planned schedules for the day, it will display `There are
 If your session spreads over more than 1 day, the schedule will still be displayed if it intersects with today's date. 
 
 </div>
+
+<div style="page-break-after: always"></div>
 
 ### 3.1.2 Viewing help : `help`
 
