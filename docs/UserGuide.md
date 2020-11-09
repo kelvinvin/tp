@@ -13,6 +13,7 @@ Made with **fitness instructors** in mind, **FitEgo** is a **desktop program** t
 {:toc}
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always"></div>
 
 <div style="page-break-after: always"></div>
 
@@ -38,6 +39,8 @@ If this is your first time, here are some quick tips to get started.
   Some example commands you can try:
 
    * **[`clist`](#321-listing-all-clients--clist)** : Lists all clients stored in **FitEgo**.
+
+<div style="page-break-after: always"></div>
 
    * **[`cadd n/Jane Doe p/91234567 e/jane@gmail.com`](#322-adding-a-client--cadd)** : Adds a client named `Jane Doe` to the Client List.
 
@@ -109,7 +112,7 @@ You struggle even more to get insights out of them.
 
 FitEgo can help you with that. Here's how:
 
-FitEgo lets you record crucial information that you want to keep track of using three types of entities:
+FitEgo lets you record crucial information that you want to keep track of using three types of entities as shown in the table below.
 
 <center> Table 1 - Summary of entities </center>
 
@@ -119,13 +122,13 @@ Client | c | Someone who is interested in or has engaged with your services
 Session | s | Timeslot for a fitness session
 Schedule | sch | A client's booking of a session
 
-And here's what you can do:
-1. When you find a client that is interested in your fitness training services, you can add him/her to your list of clients with the: <br />
-[`cadd` command](#322-adding-a-client--cadd)
-2. Next, create a fitness session on any free timeslot that you have with the: <br />
-[`sadd` command](#331-adding-a-session--sadd)
-3. And, schedule your client to the fitness session with the: <br />
-[`schadd` command](#341-adding-a-schedule--schadd)
+Here's what you can do:
+1. When you find a client that is interested in your fitness training services, you can add him/her to your list of clients with the 
+[`cadd` command](#322-adding-a-client--cadd).
+2. Next, create a fitness session on any free timeslot that you have with the 
+[`sadd` command](#331-adding-a-session--sadd).
+3. And, schedule your client to the fitness session with the 
+[`schadd` command](#341-adding-a-schedule--schadd).
 
 Simple? That's the point of FitEgo.
 
@@ -154,8 +157,9 @@ You can refer to the table and the figure below to familiarize yourself with the
      <figcaption> Figure 2 - Callouts of the various UI components</figcaption>
  </figure>
  
-<center> Table 2 - Functions of UI Components </center>
 From the figure above, the GUI is made up of several components. 
+
+<center> Table 2 - Functions of UI Components </center>
 
 | Component | Description |
 | --------------- | ---------------------------------------- | 
@@ -167,6 +171,7 @@ From the figure above, the GUI is made up of several components.
 | Session List    | Displays the list of your sessions in a list view. You can modify this list using [session-related commands](#33-session-related-keywords) | 
 | Status Bar Footer | Displays the current date and time of the program. If you notice this is incorrect, your PC might be using a different timezone| 
 
+The table above describes the function of each UI component.
 
 <div markdown="block" class="alert alert-primary">
 
@@ -184,6 +189,7 @@ For advanced users, you can use the "TAB" key and FitEgo will auto-complete the 
 </div>
 
 --------------------------------------------------------------------------------------------------------------------
+<center> Table 2 - Functions of UI Components </center>
 
 # 3 Keyword
 
@@ -260,7 +266,7 @@ Format: `help`
 <div markdown="span" class="alert alert-primary">
 
 :bulb: **Tip:**
-By default, you can press "ENTER" key and a browser will open the User Guide. This pop-up window will close after you clicked on the link. 
+By default, you can press the spacebar key and a browser will open the User Guide. This pop-up window will close after you clicked on the link. 
 Alternatively, you may press the "ESC" key to close this window. 
 </div>
 
@@ -332,7 +338,7 @@ Client-related commands will interact with the Client List which is located on t
 
  <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
      <p>
-         <img src="images/ClientPanel.png" style="width: 100%%; height: auto;"/>
+         <img src="images/ClientPanel.png" style="width: 40%; height: auto;"/>
      </p>
      <figcaption> Figure 7 - Sample of Client List</figcaption>
  </figure>
@@ -430,7 +436,7 @@ Examples:
 
 <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
      <p>
-         <img src="images/findAlexDavidResult.png" style="width: 100%%; height: auto;"/>
+         <img src="images/findAlexDavidResult.png" style="width: 40%; height: auto;"/>
      </p>
      <figcaption> Figure 9 - Result of finding clients by name </figcaption>
 </figure>
