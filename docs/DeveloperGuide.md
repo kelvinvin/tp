@@ -13,6 +13,7 @@ Made with **fitness instructors** in mind, **FitEgo** is a **desktop program** t
 {:toc}
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 ## 1 **Setting up, getting started**
 
@@ -95,7 +96,7 @@ For example, the `Logic` component (see the class diagram given below) defines i
 
 The *Sequence Diagram* below shows how the components interact with each other for the scenario where the user issues the command `cdel 1`.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
+<figure style="width:50%; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/ArchitectureSequenceDiagram.png"/>
     </p>
