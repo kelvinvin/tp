@@ -37,8 +37,6 @@ If this is your first time, here are some quick tips to get started.
 
    * **[`clist`](#321-listing-all-clients--clist)** : Lists all clients stored in **FitEgo**.
 
-<div style="page-break-after: always"></div>
-
    * **[`cadd n/Jane Doe p/91234567 e/jane@gmail.com`](#322-adding-a-client--cadd)** : Adds a client named `Jane Doe` to the Client List.
 
    * **[`cdel 3`](#325-deleting-a-client--cdel)** : Deletes the third client shown in the Client List.
@@ -168,9 +166,9 @@ From the figure above, the GUI is made up of several components.
 | Toolbar         | Displays the toolbar for this program. You can access the `exit` and `help` command from here.  | 
 | Command Box     | Displays a text box for your input. You can type your command here.          | 
 | Result Display  | Displays the result of your command. If the execution is successful, it will display a success message. Otherwise, it will prompt an error message | 
-| Client List     | Displays the list of clients in a list view. You can modify this list using [client-related commands](#32-client-related-keywords) |
+| Client List     | Displays the list of clients. You can modify this list using [client-related commands](#32-client-related-keywords) |
 | Main Window     | Displays the main window of this program. It consists of the statistics of this program, today's schedule and quote of the day | 
-| Session List    | Displays the list of your sessions in a list view. You can modify this list using [session-related commands](#33-session-related-keywords) | 
+| Session List    | Displays the list of your sessions. You can modify this list using [session-related commands](#33-session-related-keywords) | 
 | Status Bar Footer | Displays the current date and time of the program. If you notice this is incorrect, your PC might be using a different timezone| 
 
 The table above describes the function of each UI component.
@@ -191,6 +189,7 @@ For advanced users, you can use the "TAB" key and FitEgo will auto-complete the 
 </div>
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 # 3 Keyword
 
@@ -344,7 +343,7 @@ Client-related commands will interact with the Client List which is located on t
 
  <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
-         <img src="images/ClientPanel.png" style="width: 40%; height: auto;"/>
+         <img src="images/ClientPanel.png" style="width: 30%; height: auto;"/>
      </p>
      <figcaption> Figure 7 - Sample of Client List</figcaption>
  </figure>
@@ -809,6 +808,7 @@ Examples:
 * `schdel c/1 s/1` deletes the schedule associated with the first client in the Client List and first session in the Session List
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 # 4 FAQ
 
@@ -826,7 +826,6 @@ Examples:
 
 --------------------------------------------------------------------------------------------------------------------
 
-
 # 5 Command Summary
 
 You can find the comprehensive list of commands in the table below. 
@@ -840,6 +839,8 @@ You can find the comprehensive list of commands in the table below.
 | Open Settings Window | `settings` |
 | Clear all data | `clear` |
 | Exit this program | `exit` |
+
+<div style="page-break-before: always"></div>
 
 <center>Table 7 - Keyword based Commands Summary (grouped by action) </center>
 
