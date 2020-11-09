@@ -14,6 +14,8 @@ Made with **fitness instructors** in mind, **FitEgo** is a **desktop program** t
 
 --------------------------------------------------------------------------------------------------------------------
 
+<div style="page-break-after: always"></div>
+
 # 1 Quick start
 
 If this is your first time, here are some quick tips to get started.
