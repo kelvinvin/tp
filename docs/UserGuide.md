@@ -99,13 +99,11 @@ May have irreversible effect when used. Backup and caution is recommended.
 
 ### 1.2 Overview
 
-You're a fitness instructor.
+You are a fitness instructor.
 
 You record your clients' details, training progress, payment status and your own timetable across 3 or 4 different applications.
 
-You struggle to keep all of them updated.
-
-You struggle even more to get insights out of them.
+You struggle to keep all of them updated. You struggle even more to get insights out of them.
 
 FitEgo can help you with that. Here's how:
 
@@ -130,9 +128,7 @@ Here's what you can do:
 Simple? That's the point of FitEgo.
 
 Now, you will probably need to edit, delete and look through your clients and sessions along the way - 
-FitEgo supports all those features and more.
-
-Ready to begin? Let's start exploring!
+FitEgo supports all those features and more. Ready to begin? Let's start exploring!
 
 ### 1.3 General Note
 
@@ -154,6 +150,23 @@ You can refer to the figure below to familiarize yourself with the user interfac
      <figcaption> Figure 2 - Callouts of the various UI components</figcaption>
  </figure>
  
+ <div markdown="block" class="alert alert-primary">
+ 
+ :bulb: **Tip:**
+ 
+ You can type into the Command Box and it will display the commands that start with your current input. <br/>
+  <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
+      <p>
+          <img src="images/autocomplete_sample.png" style="width: 100%%; height: auto;"/>
+      </p>
+      <figcaption> Figure 3 - Sample of autocomplete command</figcaption>
+  </figure>
+ For example, in the above figure, if you enter `c` and commands that starts with "c" is displayed. <br>
+ For advanced users, you can use the "TAB" key and FitEgo will auto-complete the first suggestion into the command box, thus increasing your typing speed!   
+ </div>
+ 
+ The table below describes the function of each UI component.
+
 <center> Table 2 - Functions of UI Components </center>
 
 | Component | Description |
@@ -165,23 +178,6 @@ You can refer to the figure below to familiarize yourself with the user interfac
 | Main Window     | Displays the main window of this program. It consists of the statistics of this program, today's schedule and quote of the day | 
 | Session List    | Displays the list of your sessions. You can modify this list using [session-related commands](#33-session-related-keywords) | 
 | Status Bar Footer | Displays the current date and time of the program. If you notice this is incorrect, your PC might be using a different timezone| 
-
-The table above describes the function of each UI component.
-
-<div markdown="block" class="alert alert-primary">
-
-:bulb: **Tip:**
-
-You can type into the Command Box and it will display the commands that start with your current input. <br/>
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
-     <p>
-         <img src="images/autocomplete_sample.png" style="width: 100%%; height: auto;"/>
-     </p>
-     <figcaption> Figure 3 - Sample of autocomplete command</figcaption>
- </figure>
-For example, in the above figure, if you enter `c` and commands that starts with "c" is displayed. <br>
-For advanced users, you can use the "TAB" key and FitEgo will auto-complete the first suggestion into the command box, thus increasing your typing speed!   
-</div>
 
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-before: always"></div>
