@@ -350,7 +350,7 @@ Client-related commands will interact with the Client List which is located on t
      <figcaption> Figure 7 - Sample of Client List</figcaption>
  </figure>
 
-<div markdown="block" class="alert alert-info"> 
+<div markdown="block" class="alert alert-info" style="page-break-inside: avoid">
 
 :information_source: **Note:**
 
@@ -448,6 +448,8 @@ Examples:
      </p>
      <figcaption> Figure 9 - Result of finding clients by name </figcaption>
 </figure>
+
+<div style="page-break-before: always"></div>
 
 ### 3.2.5 Deleting a Client : `cdel`
 
