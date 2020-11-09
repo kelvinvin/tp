@@ -15,8 +15,6 @@ Made with **fitness instructors** in mind, **FitEgo** is a **desktop program** t
 --------------------------------------------------------------------------------------------------------------------
 <div style="page-break-after: always"></div>
 
-<div style="page-break-after: always"></div>
-
 # 1 Quick start
 
 If this is your first time, here are some quick tips to get started.
@@ -52,6 +50,7 @@ If this is your first time, here are some quick tips to get started.
 
 1. Refer to the [Keyword](#31-main-keywords) below for more details of each command.
 
+<div style="page-break-after: always"></div>
 
 ### 1.1 How to interpret notations
 
@@ -189,7 +188,7 @@ For advanced users, you can use the "TAB" key and FitEgo will auto-complete the 
 </div>
 
 --------------------------------------------------------------------------------------------------------------------
-<center> Table 2 - Functions of UI Components </center>
+<div style="page-break-after: always"></div>
 
 # 3 Keyword
 
