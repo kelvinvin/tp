@@ -685,7 +685,7 @@ the Session List will still be showing Friday's sessions at that point of time. 
 </div>
 
 ---
-<span style="page-break-after: always"></span>
+<div style="page-break-before: always"></div>
 
 ## 3.4 Schedule-related Keywords 
 
