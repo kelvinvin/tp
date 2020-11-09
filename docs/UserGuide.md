@@ -610,6 +610,7 @@ Examples:
 </figure>
 
 <div style="page-break-before: always"></div>
+
 ### 3.3.3 Deleting a Session : `sdel`
 
 You can delete the session specified by the index number used in the displayed Session List and all schedules associated with
