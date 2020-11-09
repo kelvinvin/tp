@@ -108,17 +108,28 @@ The sections below give more details of each component.
 
 <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
     <p>
-        <img src="images/UiClassDiagram.png"/>
+        <img src="images/UiClassDiagramP3.png" style="width: 50%"/>
     </p>
-    <figcaption>Figure 4 - UI Component Class Diagram</figcaption>
+    <figcaption>Figure 4a - UI Class Diagram (High Level) </figcaption>
+</figure>
+
+The UiComponents package in the above diagram has the following classes. 
+
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+    <p>
+        <img src="images/UiClassDiagramP2.png"/>
+    </p>
+    <figcaption>Figure 4b - UI Class Diagram - UiComponents package </figcaption>
 </figure>
 
 **API** :
 [`Ui.java`](https://github.com/AY2021S1-CS2103T-T13-3/tp/tree/master/src/main/java/seedu/address/ui/Ui.java)
 
-The UI consists of a `MainWindow` that is made up of several parts e.g.`CommandBox`, `ResultDisplay`, `ClientListPanel`, `StatusBarFooter`, `Homepage` etc. All these, including the `MainWindow`, inherit from the abstract `UiPart` class.
+The UI consists of a `MainWindow` that is made up of several parts e.g.`CommandBox`, `ResultDisplay`, `Homepage` etc, as shown in Figure 4b above. 
+All of these subcomponents are part of the UiComponents package, and each part make up the entire GUI. 
+Every class within the `UiComponents` package, including the `MainWindow`, inherit from the abstract `UiPart` class.
 
-The `UI` component uses JavaFx and ControlsFX UI framework. The layout of these UI parts are defined in matching `.fxml` files that are in the `src/main/resources/view` folder. For example, the layout of the [`MainWindow`](https://github.com/AY2021S1-CS2103T-T13-3/tp/tree/master/src/main/java/seedu/address/ui/MainWindow.java) is specified in [`MainWindow.fxml`](https://github.com/AY2021S1-CS2103T-T13-3/tp/tree/master/src/main/resources/view/MainWindow.fxml)
+The `UIComponents` uses JavaFx and ControlsFX UI framework. The layout of these UI parts are defined in matching `.fxml` files that are in the `src/main/resources/view` folder. For example, the layout of the [`MainWindow`](https://github.com/AY2021S1-CS2103T-T13-3/tp/tree/master/src/main/java/seedu/address/ui/MainWindow.java) is specified in [`MainWindow.fxml`](https://github.com/AY2021S1-CS2103T-T13-3/tp/tree/master/src/main/resources/view/MainWindow.fxml)
 
 The `UI` component interacts with these external API: 
 
@@ -441,7 +452,7 @@ The Edit Schedule feature allows user to edit a Schedule that is associated with
 
 #### 3.6.1 Implementation
 
-The proposed Edit Schedule mechanism is facilitated by `Addressbook`, similar to the [Edit Session Command](#f10).
+The proposed Edit Schedule mechanism is facilitated by `Addressbook`, similar to the [Edit Session Command](#33-edit-session-feature).
 
 This operation is exposed in the `Model` interface as `Model#setSchedule()`.
 
@@ -669,7 +680,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 (For all use cases below, the **System** is the `FitEgo` and the **Actor** is the `user`, unless specified otherwise)
 
 
-**Use case: UC01 Add a Client**
+<b id="uc01">Use case: UC01 Add a Client</b>
 
 **MSS**
 
@@ -693,7 +704,7 @@ Use case ends.
 
 <br/>
 
-**Use case: UC02 Edit a Client**
+<b id="uc02">Use case: UC02 Edit a Client</b>
 
 **MSS**
 
@@ -716,7 +727,7 @@ Use case ends.
       Use case resumes at step 2.  
 <br/>
 
-**Use case: UC03 Delete a Client**
+<b id="uc03">Use case: UC03 Delete a Client</b>
 
 **MSS**
 
@@ -752,7 +763,7 @@ Use case ends.
       
 <br/>
 
-**Use case:  UC04 Find Clients**
+<b id="uc04">Use case: UC04 Find a Client</b>
 
 **MSS**
 
@@ -764,13 +775,14 @@ Use case ends.
 **Extensions**
 
 * 2a. The search result is empty.
-    2a1. FitEgo displays no clients found.
+    
+    * 2a1. FitEgo displays no clients found.
 
-  Use case ends.
+    Use case ends.
 
 <br/>
 
-**Use case: UC05 View a Client**
+<b id="uc05">Use case: UC05 View a Client</b>
 
 **MSS**
 
@@ -792,28 +804,30 @@ Use case ends.
       Use case resumes at step 3.
 
 * 4a. Previous Client's profile window is not closed.
+
     * 4a1. The previous Client's profile will be closed.
+    
     * 4a2. The current Client's profile will be displayed.
 
-      Use case ends.
+    Use case ends.
       
 <br/>
 
 **Use case: UC06 Add a Session**
 
-Similar to <u>UC01 (Add a Client)</u>, but replace Client with Session.
+Similar to [UC01 (Add a Client)](#uc01), but replace Client with Session.
 
 <br>
       
 **Use case: UC07 Edit a Session**
 
-Similar to <u>UC02 (Edit a Client)</u>, but replace Client with Session.
+Similar to [UC02 (Edit a Client)](#uc02), but replace Client with Session.
 
 <br>
 
 **Use case: UC08 Delete a Session**
 
-Similar to <u>UC03 (Delete a Client)</u>, but replace Client with Session.
+Similar to [UC03 (Delete a Client)](#uc03), but replace Client with Session.
 
 <br/>
 
@@ -868,9 +882,9 @@ Use case ends.
 
 **MSS**
 
- 1.  FitEgo shows a list of Schedule
- 2.  User requests to edit a specific Schedule in the list (i.e. updated Session index, update payment, update weight)
- 3.  FitEgo edits the Schedule according to the specified details
+ 1.  FitEgo shows a list of Clients and list of Sessions.
+ 2.  User requests to edit a specific Schedule in the list. (i.e. updated Session index, update payment, update weight)
+ 3.  FitEgo edits the Schedule according to the specified details.
 
 Use case ends.
 
@@ -925,7 +939,8 @@ Use case ends.
 
 **Extensions**
  - 3a. User closes the Help Window. 
-    * 3a1. FitEgo closes the Help Window
+ 
+    * 3a1. FitEgo closes the Help Window.
 	
       Use case ends.
         
@@ -943,6 +958,7 @@ Use case ends.
 
 **Extensions**
 * 2a. User closes the Settings Window. 
+
     * 2a1. FitEgo closes the Settings Window.
 	
       Use case ends.
@@ -1009,95 +1025,133 @@ Otherwise, the expected outcome: No changes are made. Error details shown in the
 
 ### 6.2 Adding a Client
 
-1. Adding a Client while all Clients are being shown
+1. Adding a Client while all Clients are being shown.
 
-   1. Test case: `cadd n/David …` <br>
-      Expected: First contact is added to the list. Details of the added contact shown in the status message.
+   1. Test case: `cadd n/John Doe p/98765432 e/johnd@example.com a/311, Clementi Ave 2, #02-25 t/injured-thigh t/allergy-dairy` <br>
+      Expected: Client is added to the list. <br>
+      Details of the added Client are shown in the status message.
+    
+   1. Other incorrect Add Client commands to try: <br>
+        * `cadd n/John Doe p/98765432 a/311, Clementi Ave 2, #02-25 t/injured-thigh` (email not added)
+        * `cadd n/John Doe p/98765432 e/example.com a/311, Clementi Ave 2, #02-25 t/injured-thigh t/allergy-dairy` (invalid email address)
+      Expected: Client is not added. <br>
+      Error details are shown in the status message.
 
+### 6.3 Editing a Client
 
-### 6.3 Adding a Session
+1. Editing a Client while all Clients are being shown.
+
+   1. Prerequisites: There should be at least 1 Client in the Client List.
+    
+   1. Test case: `cedit 1 p/91234567` <br>
+      Expected: First Client's detail (phone number) is edited. <br>
+      Details of the edited Client are shown is in the status message.
+
+   1. Other incorrect Edit Client commands to try: 
+       * `cedit 0 p/91234567` (index out of bound) <br>
+      Expected: Client details is not edited. <br>
+      Error details are shown in the status message.
+      
+### 6.4 Deleting a Client
+
+1. Deleting a Client while all Clients are being shown.
+
+   1. Prerequisites: There should be at least 1 Client in the Client List.
+    
+   1. Test case: `cdel 1` <br>
+      Expected: First Client is being deleted from the list. <br>
+      Details of the deleted Client are shown in the status message.
+
+### 6.5 Adding a Session
 
 1. Adding a Session while all Clients are being shown.
 
     1. Test case: `sadd g/Machoman Gym ex/Endurance at/29/09/2020 1600 t/120` <br>
-       Expected: Session is added to the list, and it is shown in order. Details of the added Session shown in the status message.
+       Expected: Session is added to the list. <br>
+       Details of the added Session are shown in the status message.
        
     1. Other incorrect Add Session commands to try: 
-        `sadd g/machoman ex/endurance at/29/09/2020 t/120` (wrong date format),
-        `sadd g/machoman ex/endurance at/29/09/2020 1600 t/0` (invalid duration) <br>
-       Expected: Session is not added. Error details are shown in the status message.
+        * `sadd g/machoman ex/endurance at/29/09/2020 t/120` (wrong date format)
+        * `sadd g/machoman ex/endurance at/29/09/2020 1600 t/0` (invalid duration)
+       Expected: Session is not added. <br>
+       Error details are shown in the status message.
 
-### 6.4 Editing a Session
+### 6.6 Editing a Session
 
 1. Editing a Session while all Sessions are being shown.
 
-   1. Prerequisites: Multiple Sessions in the list can be viewed on the right panel of the GUI.
+   1. Prerequisites: There should be at least 1 Session in the Session List.
     
-   1. Test case: `sedit 1 g/Machoman at/29/09/2020 1600 t/120`<br>
-      Expected: First Session's gym location and timing is edited. Details of the edited Session is shown in the status message.
+   1. Test case: `sedit 1 g/Machoman at/29/09/2020 1600 t/120` <br>
+      Expected: First Session's gym location and timing is edited. <br>
+      Details of the edited Session are shown in the status message.
       
-### 6.5 Deleting a Session
+### 6.7 Deleting a Session
 
 1. Deleting a Session while all Sessions are being shown.
 
+   1. Prerequisites: There should be at least 1 Session in the Session List.
+   
    1. Test case: `sdel 1 f/` <br>
-       Expected: The 1st Session in the Session List will be deleted alongside all Schedules associated to the Session. Details of the deleted Session is shown in the status message.
+      Expected: The 1st Session in the Session List will be deleted alongside all Schedules associated to the Session. <br>
+      Details of the deleted Session are shown in the status message.
 
-### 6.6 Viewing Sessions within Period
+### 6.8 Viewing Sessions within Period
 
 1. Viewing Sessions within Period while the Session List is non-empty.
 
-   1. Prerequisites: Multiple Sessions in the list can be viewed on the right panel of the GUI.
+   1. Prerequisites: There should be at least 1 Session in the Session List.
 
    1. Test case: `sview p/+1d`<br>
-      Expected: The right panel only displays Sessions with start time from 0000hrs today to 2359hrs the next day.
+      Expected: The right panel only displays Sessions with start time from 0000hrs today to 2359hrs the next day. <br>
       Indication that Session List has been successfully updated is shown in the status message.
 
    1. Other incorrect View Session commands to try: `sview`, `sview p/+2s` (where unit of time is not d/m/y), `...` <br>
-      Expected: View of Session List is unchanged. Error details shown in the status message.
+      Expected: View of Session List is unchanged. <br>
+      Error details shown in the status message.
       
-### 6.7 Adding a Schedule
+### 6.9 Adding a Schedule
 
 1. Adding a Schedule while all Clients and Sessions are being shown.
 
-   1. Prerequisites: Multiple Clients and Sessions in the list can be viewed on the left and right panel of the GUI respectively.
+   1. Prerequisites: There should be at least 1 Client and 1 Session in the Client and Session List respectively.
    
    1. Test case: `schadd c/1 s/1`<br>
-      Expected: Add a Schedule associated with the first Client in the Client List and first Session in the Session List.
-      Details of the added Schedule is shown in the status message.
+      Expected: Add a Schedule associated with the first Client in the Client List and first Session in the Session List. <br>
+      Details of the added Schedule are shown in the status message.
       
 
-### 6.8 Editing a Schedule
+### 6.10 Editing a Schedule
 
 1. Editing a Schedule while all Schedules are being shown.
 
-   1. Prerequisites: Multiple Schedules in the list can be viewed on the main panel of the GUI.
+   1. Prerequisites: There should be at least 1 Schedule with the associated Client and Session.
 
    1. Test case: `schedit c/1 s/1 us/2 pd/paid r/text`<br>
-      Expected: Edit Schedule with the first Client and first Session is edited to second Session in the Session List, with payment updated to paid and remarks updated to text.
-      Details of the edited Schedule is shown in the status message.
+      Expected: Edit Schedule with the first Client and first Session is edited to second Session in the Session List, with payment updated to paid and remarks updated to text. <br>
+      Details of the edited Schedule are shown in the status message.
 
 
-### 6.9 Deleting a Schedule
+### 6.11 Deleting a Schedule
 
 1. Deleting a Schedule while all Clients and Sessions are being shown.
 
-   1. Prerequisites: Multiple Clients and Sessions in the list can be viewed on the left and right panel of the GUI respectively.
+   1. Prerequisites: There should be at least 1 Schedule with the associated Client and Session.
    
    1. Test case: `schdel c/1 s/1`<br>
-      Expected: Delete the Schedule associated with first Client in the Client List and first Session in the Session List.
-      Details of the deleted Schedule is shown in the status message.
+      Expected: Delete the Schedule associated with first Client in the Client List and first Session in the Session List. <br>
+      Details of the deleted Schedule are shown in the status message.
 
-### 6.10 Saving data
+### 6.12 Saving data
 
 1. Dealing with missing/corrupted data files
 
    1. Test case: Open `data/addressbook.json` and change one of the Schedule's `clientEmail` to an email that 
-      does not exist inside the `clients` list.
+      does not exist inside the `clients` list. <br>
       Expected: FitEgo notices an invalid storage format and start with an empty addressbook.
       
-   2. Test case: Open `data/addressbook.json` and change one of the Schedule's `startTime` or `endTime` so that the
-      resulting interval does not exist inside the Session List.
+   2. Test case: Open `data/addressbook.json` and change one of the Schedule's `startTime` or `endTime` so that the  
+      resulting interval does not exist inside the Session List. <br>
       Expected: Similar to previous.
 
 ---
