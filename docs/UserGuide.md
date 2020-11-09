@@ -248,7 +248,7 @@ If your session spreads over more than 1 day, the schedule will still be display
 
 </div>
 
-<div style="page-break-after: always"></div>
+<div style="page-break-before: always"></div>
 
 ### 3.1.2 Viewing help : `help`
 
@@ -319,7 +319,7 @@ Format: `exit`
 Your data in FitEgo are saved in the hard disk automatically after any command that changes the data. There is no need to save manually.
 
 ---
-<div style="page-break-after: always"></div>
+<div style="page-break-before: always"></div>
 
 ## 3.2 Client-related Keywords
 
@@ -506,7 +506,7 @@ The result of these commands is shown in the figure below
      <figcaption> Figure 10 - Client View with Schedules </figcaption>
 </figure>
 ---
-<div style="page-break-after: always"></div>
+<div style="page-break-before: always"></div>
 
 ## 3.3 Session-related Keywords 
 
