@@ -609,7 +609,7 @@ Examples:
      <figcaption> Figure 13 - Result of executing <code>sedit 1 g/Machoman at/29/09/2020 1600 t/120</code></figcaption>
 </figure>
 
-
+<div style="page-break-before: always"></div>
 ### 3.3.3 Deleting a Session : `sdel`
 
 You can delete the session specified by the index number used in the displayed Session List and all schedules associated with
@@ -637,7 +637,8 @@ To force deletion of session (and all associated schedules), pass in the optiona
 * If there are one or more schedules associated with the second session, 
   `list` followed by `sdel 2 f/` will delete all schedules associated with the second session, then delete the session itself
   
-  
+<div style="page-break-before: always"></div>
+
 ### 3.3.4 Viewing Sessions within Period : `sview`
 You can filter the Session List to view sessions within requested period. This helps you to prioritise your sessions as needed.
 
@@ -675,7 +676,6 @@ Points to take note when viewing session from the Session List:
      </p>
      <figcaption> Figure 14 - Result of running <code>sview p/+2w</code></figcaption>
 </figure>
-
 Examples:
  
 * `sview p/all` displays all sessions stored in FitEgo
@@ -782,7 +782,7 @@ Examples:
 *  `schedit c/1 s/1 pd/paid` indicates that the first client in the Client List has paid for the first session in the Session List while keeping all other fields the same
 *  `schedit c/1 s/1 r/did 5 pushups` edits the schedule containing client index 1 and session index 1 to have remark of doing 5 pushups while keeping all other fields the same
 *  `schedit c/1 s/1 w/70` edits the schedule containing client index 1 and session index 1 to a weight of 70kg while keeping all other fields the same
-* `schedit c/1 s/1 r/` clears the schedule containing client index 1 and session index 1 remarks while keeping all other fields the same
+*  `schedit c/1 s/1 r/` clears the schedule containing client index 1 and session index 1 remarks while keeping all other fields the same
 
 <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
