@@ -13,7 +13,7 @@ Made with **fitness instructors** in mind, **FitEgo** is a **desktop program** t
 {:toc}
 
 --------------------------------------------------------------------------------------------------------------------
-<div style="page-break-after: always"></div>
+<div style="page-break-before: always"></div>
 
 # 1 Quick start
 
@@ -50,7 +50,7 @@ If this is your first time, here are some quick tips to get started.
 
 1. Refer to the [Keyword](#31-main-keywords) section below for more details of each command.
 
-<div style="page-break-after: always"></div>
+<div style="page-break-before: always"></div>
 
 ### 1.1 How to interpret notations
 
@@ -98,6 +98,7 @@ An example to follow.
 May have irreversible effect when used. Backup and caution is recommended.
 </div>
 
+<div style="page-break-before: always"></div>
 
 ### 1.2 Overview
 
@@ -222,6 +223,8 @@ In this section, you can find all the keywords that will help you fully utilize 
 
 This program has separated the keywords into 4 different categories - [Main](#31-main-keywords),
 [Client](#32-client-related-keywords), [Session](#33-session-related-keywords) and [Schedule](#34-schedule-related-keywords).
+
+<div style="page-break-before: always"></div>
 
 ## 3.1 Main Keywords
 All main keywords are described in this section.
@@ -416,6 +419,7 @@ Examples:
     <figcaption> Figure 8 - Result of executing <code>cedit 2 p/12345678 t/injured-thigh</code></figcaption>
 </figure>
 
+<div style="page-break-before: always"></div>
 
 ### 3.2.4 Locating Clients by Name : `cfind`
 
