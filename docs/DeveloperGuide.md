@@ -167,6 +167,8 @@ Given below is the Sequence Diagram for interactions within the `Logic` componen
 <div markdown="span" class="alert alert-info">:information_source: **Note:** The lifeline for `DeleteClientCommandParser` and `DeleteClientCommand` should end at the destroy marker (X) but due to a limitation of PlantUML, the lifeline reaches the end of diagram.
 </div>
 
+<div style="page-break-before: always"></div>
+
 ### 2.4 Model component
 
 <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
@@ -290,6 +292,8 @@ The following activity diagram summarizes what happens when a user executes a ne
     </p>
     <figcaption>Figure 11 - Edit Session Activity Diagram</figcaption>
 </figure>
+
+<div style="page-break-before: always"></div>
 
 ### 3.4 Delete Session feature
 
@@ -512,6 +516,8 @@ In the following sequence diagram, we trace the execution starting from when the
     <figcaption>Figure 21 - Client View Weight Generate Sequence Diagram</figcaption>
 </figure>
 
+<div style="page-break-before: always"></div>
+
 <div markdown="block" class="alert alert-info"> 
 
 :information_source: **Note:**
@@ -523,6 +529,8 @@ is a CommandResult object, within which, contains a Supplier which returns a Pan
 
 As shown in the "alt" frame, the chart is added into the tab pane if there are associated schedule and the weight (if present within the `Schedule` object)
 will be added into the line chart. Otherwise, the `Weight` tab will be removed instead of showing an empty chart.  
+
+<div style="page-break-before: always"></div>
 
 #### 3.7.2 Design Considerations
 In designing this weight tracking feature, we had considered several alternative ways in which we can store and retreive the weight. 
@@ -654,6 +662,7 @@ In designing this feature, we had to consider several alternative ways in which 
 He can spend more time on his clients/his routine rather than manually using alternative software like Excel to track
 administrative matters.
 
+<div style="page-break-before: always"></div>
 
 ### 5.2 User stories
 
@@ -1179,7 +1188,7 @@ We believe that the effort to develop FitEgo is at least twice of that of AB3. B
 
 We think that the difficulty level for developing FitEgo was quite high because there are many entities involved (Client, Session, and Schedule) compared to AB3 that only has Person. Schedule is an association class, which needs integration testing and some changes needed to be made when the Schedule-related features were added. New panels and windows such as Client List, Session List, settings window, and Client detail view were also created. Such changes in the UI were very challenging.
 
-Our team wrote around 23k LoC, 30 pages of User Guide and 50 pages of Developer Guide.
+Our team spent about 700 hours in total (~20 hours a week) to write around 23k LoC, 30 pages of User Guide and 50 pages of Developer Guide.
 
 ### Challenges Faced 
 
