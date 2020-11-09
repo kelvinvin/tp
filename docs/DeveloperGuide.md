@@ -615,7 +615,7 @@ In designing this feature, we had to consider several alternative ways in which 
 
 --------------------------------------------------------------------------------------------------------------------
 
-## 5 **Appendix: Requirements**
+## 5 **Appendix A: Requirements**
 
 ### 5.1 Product scope
 
@@ -976,7 +976,7 @@ from your previous machine to your new machine.
 
 --------------------------------------------------------------------------------------------------------------------
 
-## 6 **Appendix: Instructions for manual testing**
+## 6 **Appendix B: Instructions for manual testing**
 
 Given below are instructions to test the app manually.
 

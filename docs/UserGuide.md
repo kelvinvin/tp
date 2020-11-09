@@ -26,7 +26,7 @@ If this is your first time, here are some quick tips to get started.
 1. Copy the file to the folder you want to use as the _home folder_ for your **FitEgo** program.
 
 1. Double-click the file to start the app. The GUI similar to the figure below should appear in a few seconds. Note how the app contains some sample data.<br>
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/Ui.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -149,7 +149,7 @@ You can refer to the table and the figure below to familiarize yourself with the
 
 [comment]: <> (Why cant you figure out yourself?)
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/AnnotatedUi.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -177,7 +177,7 @@ The table above describes the function of each UI component.
 :bulb: **Tip:**
 
 You can type into the Command Box and it will display the commands that start with your current input. <br/>
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/autocomplete_sample.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -230,7 +230,7 @@ All main keywords are described in this section.
 
 You can return to the home page by using this command. 
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/homepage.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -254,7 +254,7 @@ If your session spreads over more than 1 day, the schedule will still be display
 
 You can ask FitEgo to open a window with a link to the help page as shown in the figure below.
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/helpMessage.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -274,7 +274,7 @@ Alternatively, you may press the "ESC" key to close this window.
 
 You can ask FitEgo to open a window to change user settings.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/settingsWindow.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -337,7 +337,7 @@ Each client must have a unique email.
 
 Client-related commands will interact with the Client List which is located on the [left of the UI](#2-ui-orientation). 
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/ClientPanel.png" style="width: 40%; height: auto;"/>
      </p>
@@ -409,7 +409,7 @@ Examples:
 *  `cedit 1 t/` removes all of the tags of the first client in the Client List
 *  `cedit 2 p/12345678 t/injured-thigh` edits the phone number and tag of the second client in the Client List. As you can see in the figure below, both fields are updated after executing the command.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
     <p>
         <img src="images/cedit_sample.png" style="width: 100%; height: auto;"/>
     </p>
@@ -435,7 +435,7 @@ Examples:
 * `cfind John` returns `john` and `John Doe`
 * `cfind alex david` returns `Alex Yeoh`, `David Li` as shown in the figure below <br>
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/findAlexDavidResult.png" style="width: 40%; height: auto;"/>
      </p>
@@ -499,7 +499,7 @@ Examples:
 
 The result of these commands is shown in the figure below
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/cview_sample.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -524,7 +524,7 @@ Each session can be scheduled with multiple clients, to model a trainer instruct
 
 Session-related commands will interact with the Session List which is located on the [right of the UI](#2-ui-orientation). The figure below shows how it looks like.
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/SessionPanel.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -593,7 +593,7 @@ Examples:
 *  `sedit 1 g/Machoman at/29/09/2020 1600 t/120` edits the gym of the first session to be `Machoman` and the start time and duration to be `29/09/2020 1600 with a duration of 120  minutes` while keeping all other fields the same
 *  `sedit 2 at/29/09/2020 1600 t/120` edits the start time and duration of the second session to be `29/09/2020 1600 with a duration of 120 minutes` while keeping all other fields the same
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/sedit_sample.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -659,7 +659,7 @@ Points to take note when viewing session from the Session List:
  | m / M | month |
  | y / Y| year |
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/sview_sample.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -718,7 +718,7 @@ The table below shows an example of schedules. The session at Machoman Gym is at
 
 To check if you have scheduled a session with a client, you can check if the session in the Session List contains the client's name. 
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/SchedulePanel.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -743,7 +743,7 @@ Example:
 
 * `schadd c/1 s/1` schedules the first client in the Client List with the first session in the Session List. As you can see in the figure below, Alex Yeoh (the first client, marked by the red square) is added to the first session in the list (marked by the blue square).
 
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+ <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/schadd_sample.png" style="width: 100%%; height: auto;"/>
      </p>
@@ -774,7 +774,7 @@ Examples:
 *  `schedit c/1 s/1 w/70` edits the schedule containing client index 1 and session index 1 to a weight of 70kg while keeping all other fields the same
 * `schedit c/1 s/1 r/` clears the schedule containing client index 1 and session index 1 remarks while keeping all other fields the same
 
-<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller;">
+<figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/schedit_sample.png" style="width: 100%%; height: auto;"/>
      </p>
