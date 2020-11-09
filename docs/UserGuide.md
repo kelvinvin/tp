@@ -685,7 +685,7 @@ the Session List will still be showing Friday's sessions at that point of time. 
 </div>
 
 ---
-<div style="page-break-after: always"></div>
+<span style="page-break-after: always"></span>
 
 ## 3.4 Schedule-related Keywords 
 
@@ -798,7 +798,6 @@ Examples:
 * `schdel c/1 s/1` deletes the schedule associated with the first client in the Client List and first session in the Session List
 
 --------------------------------------------------------------------------------------------------------------------
-<div style="page-break-after: always"></div>
 
 # 4 FAQ
 
