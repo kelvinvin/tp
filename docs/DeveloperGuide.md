@@ -218,6 +218,7 @@ The `Storage` component,
 Classes used by multiple components are in the `seedu.addressbook.commons` package.
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 ## 3 **Implementation**
 
@@ -247,6 +248,8 @@ e.g. print the actual list instead of just its size
 
 Certain properties of the application can be controlled(e.g. user prefs file location, logging level), 
 through the configuration file (default: `config.json`)
+
+<div style="page-break-before: always"></div>
 
 ### 3.3 Edit Session feature
 
@@ -376,6 +379,7 @@ In designing this feature, we had to consider several alternative ways in which 
     - Pros: Easy to implement.
     - Cons: A schedule might have invalid session, breaking data integrity.
 
+<div style="page-break-before: always"></div>
 
 ### 3.5 Add Schedule feature
 
@@ -447,6 +451,8 @@ Thus, `schadd c/2 s/1` will add a Schedule associated with Andy (the second Clie
 
 On the other hand, invoking `schadd c/1 s/1` will result in an error shown to the user as an identical Schedule already exists. [Here](#f17), John is already scheduled to the endurance training Session from 12/02/2020 1400 - 1600.
 
+<div style="page-break-before: always"></div>
+
 ### 3.6 Edit Schedule feature
 
 The Edit Schedule feature allows user to edit a Schedule that is associated with a Client and a Session.
@@ -482,6 +488,7 @@ The following activity diagram summarizes what happens when a user executes a ne
   * Pros: Easier to retrieve.
   * Cons: Implementation is more confusing as User there's a conflict between Index and user-typed String index.
 
+<div style="page-break-before: always"></div>
 
 ### 3.7 View Client's Weight feature
 
@@ -527,6 +534,8 @@ In designing this weight tracking feature, we had considered several alternative
 * **Alternative 2:** Stores a list of `Weight` within the `Client` object
   * Pros: Do not require a schedule in order to track weight. 
   * Cons: Lesser information about the weight (schedule's exercise, remarks, time, etc) is stored.  
+
+<div style="page-break-before: always"></div>
 
 ### 3.8 View Session by period feature
 
@@ -616,6 +625,7 @@ In designing this feature, we had to consider several alternative ways in which 
          This also increases chances of errors made in implementation.
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 ## 4 **Documentation, logging, testing, configuration, dev-ops**
 
@@ -675,6 +685,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 | `*`      | user                                          | change software background between light and dark mode | customise my experience                        |
 | `*`      | trainer focused on coaching pre-NS teen       | track client's date of birth   | adjust the fitness intensity depending on IPPT period                  |
 
+<div style="page-break-before: always"></div>
 
 ### 5.3 Use cases
 
@@ -992,6 +1003,7 @@ from your previous machine to your new machine.
 
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 ## 6 **Appendix B: Instructions for manual testing**
 
@@ -1157,7 +1169,7 @@ Otherwise, the expected outcome: No changes are made. Error details shown in the
 
 
 ---
-
+<div style="page-break-before: always"></div>
 
 ## 7 **Appendix C: Efforts**
 ### Effort
