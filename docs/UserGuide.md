@@ -25,12 +25,12 @@ If this is your first time, here are some quick tips to get started.
 1. Copy the file to the folder you want to use as the _home folder_ for your **FitEgo** program.
 
 1. Double-click the file to start the app. The GUI similar to the figure below should appear in a few seconds. Note how the app contains some sample data.<br>
- <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
+     <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid;">
      <p>
          <img src="images/Ui.png" style="width: 100%%; height: auto;"/>
      </p>
      <figcaption> Figure 1 - Sample screenshot of our Ui</figcaption>
- </figure>
+     </figure>
 
 1. Type the command in the command box and press "Enter" key to execute it. e.g. typing **`help`** and pressing "Enter" key will open the help window.<br>
   Some example commands you can try:
