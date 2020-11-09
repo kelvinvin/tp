@@ -136,13 +136,16 @@ Now, you will probably need to edit, delete and look through your clients and se
 FitEgo supports all those features and more.
 
 Ready to begin? Let's start exploring!
-    
+
+<div style="page-break-before: always"></div>
+
 ### 1.3 General Note
 
 The program will automatically save after every command execution to guarantee that your data will never be lost.
 
 
 --------------------------------------------------------------------------------------------------------------------
+<div style="page-break-before: always"></div>
 
 # 2 UI-orientation
 
