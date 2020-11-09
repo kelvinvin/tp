@@ -277,7 +277,6 @@ The following sequence diagram shows how the Edit Session operation works:
 <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
     <p>
         <img src="images/EditSessionSequenceDiagram.png"/>
-    </p>
     <figcaption>Figure 10 - Edit Session Sequence Diagram</figcaption>
 </figure>
 
@@ -435,7 +434,7 @@ Instead of using `DeleteSessionCommandParser`, it uses `AddScheduleCommandParser
 
  <figure style="width:auto; text-align:center; padding:0.5em; font-style: italic; font-size: smaller; page-break-inside: avoid ">
      <p>
-         <img src="images/AddScheduleExecuteRef.png" style="width: 95%; height: auto;"/>
+         <img src="images/AddScheduleExecuteRef.png" style="width: 100%; height: auto;"/>
      </p>
      <figcaption>Figure 18 - Sequence diagram snippet for <code>AddScheduleCommand#execute(model)</code></figcaption>
  </figure>
